@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @media (min-width: 375px) and (max-width: 750px)
+    {
+      .attribution { font-size: 25px; text-align: center; font-family: Outfit; font-weight: bolder; margin-top: 3%; flex-wrap: nowrap;/*border: 3px solid black;*/}
+      .scan {color: grey; font-size: 22px; font-weight: 400; margin-top: -15px; margin-bottom: 50px;}
+      .attribution a { color: hsl(228, 45%, 44%); }
+      body {background-color: none;}
+      .blue-back {background-color:  hsla(228, 45%, 44%, 20%); width: 100vw; height: 100vh;  margin: 0%; /*border: 3px solid black;*/}
+      .container {display: flex; justify-content: center; align-items: center; height: 90vh;}
+      .box {background-color: white; max-width: 85vw; height: fit-content; border-radius: 5%; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;}
+      img {max-width: 74.5vw; max-height: 88vh; margin-top: 13px; border-radius: 5%;}
+    }
+    @media (min-width: 751px) and (max-width: 1440px)
+    {
+      .attribution { font-size: 20px; text-align: center; font-family: Outfit; font-weight: bolder; margin-top: 3%; flex-wrap: nowrap;/*border: 3px solid black;*/}
+      .scan {color: grey; font-size: 17px; font-weight: 400; margin-top: -15px; margin-bottom: 25px;}
+      .attribution a { color: hsl(228, 45%, 44%); }
+      body {background-color: none;}
+      .blue-back {background-color:  hsla(228, 45%, 44%, 20%); width: 100vw; height: 100vh;  margin: 0%; /*border: 3px solid black;*/}
+      .container {display: flex; justify-content: center; align-items: center; height: 90vh;}
+      .box {background-color: white; max-width: 50vw; height: fit-content; border-radius: 5%; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;}
+      img {max-width: 45.5vw; max-height: 78vh; margin-top: 25px; border-radius: 5%;}
+    }    
+    @media (min-width: 1440px)
+    {
+      .attribution { font-size: 15px; text-align: center; font-family: Outfit; font-weight: bolder; margin-top: 3%; flex-wrap: nowrap;/*border: 3px solid black;*/}
+      .scan {color: grey; font-size: 11px; margin-top: -15px; margin-bottom: 25px;}
+      .attribution a { color: hsl(228, 45%, 44%); }
+      body {background-color: whitesmoke;}
+      .blue-back {background-color:  hsla(228, 45%, 44%, 20%); width: 80vw; height: 80vh;  margin-left: 5vw; margin-top: 5vh; /*border: 3px solid black;*/}
+      .container {display: flex; justify-content: center; align-items: center; height: 90vh;}
+      .box {background-color: white; max-width: 15vw; height: fit-content; border-radius: 5%; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;}
+      img {max-width: 14.5vw; max-height: 28vh; margin-top: 13px; border-radius: 5%;}
+    }
+    
+  </style>
+</head>
+<body>
+  
+    <div class="blue-back">
+      <div class="container">
+        <div class="box">
+          <img src="./images/image-qr-code.png">
+           <p class="attribution">
+            Improve your front-end skills by building projects
+           </p> 
+           <p class="attribution scan">
+            Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+           </p>
+        </div>
+       
+      </div>
+
+    </div>
+  
+
+  
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">ARKAPRAVA SUR</a>.
+  </div>
+</body>
+</html>
